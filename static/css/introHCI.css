@@ -1,3 +1,4 @@
+
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
 	margin-top: 2em;
@@ -8,6 +9,7 @@
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
 	color: #CC00AA;
 }
+
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
@@ -31,4 +33,8 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.project p {
+    text-align: center;
 }
